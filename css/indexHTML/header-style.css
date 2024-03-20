@@ -1,0 +1,61 @@
+header {
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    top: 25px;
+    padding: 0 100px 0 100px;
+
+}
+
+.header .line_border {
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    align-self: flex-end;
+}
+
+.container_link {
+    display: flex;
+    justify-content: space-between;
+    width: 295px;
+    padding: 0 1px 0 1px;
+}
+.container_link  li{
+    display: inline;
+}
+.container_link a{
+    text-decoration: none;
+    color: #fff;
+}
+.container_link p{
+    font-size: 21px;
+}
+
+.searc{
+    height: 75px;
+    width: 75px;
+    border-radius: 50px;
+    background-color: #fff;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ion-icon {
+    font-size: 35px;
+}
+
+.item-link p :hover {
+    color: #dba91e;
+    text-decoration: underline;
+}
+
